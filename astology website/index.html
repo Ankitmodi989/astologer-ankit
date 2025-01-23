@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="type">
+        <p>बाबा अंकित की ज्योतिष वेबसाइट पर आपका स्वागत है! यहाँ आपको मिलेगी सटीक भविष्यवाणियाँ, अद्भुत उपाय और आपकी सभी समस्याओं का समाधान। जानिए अपने भविष्य के बारे में और पाएं जीवन को सरल और सुखद बनाने के उपाय। आज ही विज़िट करें और जानें अपनी राशि का राज़!</p>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="Ankit.jpg"  height="200px" width="200px">
+         </div>
+        <h1>Ankit the Astrologer</h1>
+        <form id="astroForm">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required="">
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required="">
+
+            <label for="day">Date of Birth (Day):</label>
+            <input type="number" id="day" name="day" min="1" max="31" required="">
+
+            <label for="month">Month:</label>
+            <input type="number" id="month" name="month" min="1" max="12" required="">
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" min="1900" max="2023" required="">
+
+            <input type="submit" value="Get Insights">
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+    
+    <script src="first.js"></script>
+</body>
+</html>
